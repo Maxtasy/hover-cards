@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="base-style.css">
+  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+  <title>Cards Effect</title>
+</head>
+<body>
+  <div class="Swiper">
+    <button class="SwiperButton SwiperButton--Prev">
+      <i class="fa-solid fa-circle-chevron-left"></i>
+    </button>
+
+    <div class="SwiperContent">
+      <div class="SwiperItem SwiperItem--Prev">
+        <div class="CardCollection">
+          <div class="CardCollection__CardsWrapper">
+            <div class="Card" style="--background-image: url('/src/img/spring-1.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/spring-2.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/spring-3.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/spring-4.jpg')"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="SwiperItem SwiperItem--Active">
+        <div class="CardCollection">
+          <div class="CardCollection__CardsWrapper">
+            <div class="Card" style="--background-image: url('/src/img/summer-1.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/summer-2.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/summer-3.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/summer-4.jpg')"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="SwiperItem SwiperItem--Next">
+        <div class="CardCollection">
+          <div class="CardCollection__CardsWrapper">
+            <div class="Card" style="--background-image: url('/src/img/fall-1.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/fall-2.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/fall-3.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/fall-4.jpg')"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="SwiperItem SwiperItem--Hidden">
+        <div class="CardCollection">
+          <div class="CardCollection__CardsWrapper">
+            <div class="Card" style="--background-image: url('/src/img/winter-1.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/winter-2.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/winter-3.jpg')"></div>
+            <div class="Card" style="--background-image: url('/src/img/winter-4.jpg')"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="SwiperButton SwiperButton--Next">
+      <i class="fa-solid fa-circle-chevron-right"></i>
+    </button>
+  </div>
+</body>
+</html>
